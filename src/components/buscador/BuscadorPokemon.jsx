@@ -4,7 +4,7 @@ import fetchPokemon from './../../redux/actions/buscadorAction';
 
 const BuscadorPokemon = () => {
   const dispatch = useDispatch();
-  const [pokemon_name, set_pokemon_name] = useState('mewtwo');
+  const [pokemon_name, set_pokemon_name] = useState('');
   return (
     <div className="form-group">
       <label htmlFor="buscar_pokemon" className="text-white">Buscar Pokemon</label>

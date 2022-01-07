@@ -16,7 +16,7 @@ const buscador = (state = initialState, action) => {
         case FETCH_POKEMON_SUCCESS:
             return{
                 loading: false,
-                payload: action.payload,
+                pokemon: action.payload,
                 error: ''
             }
         case FETCH_POKEMON_FAILURE:
